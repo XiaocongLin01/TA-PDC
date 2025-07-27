@@ -8,12 +8,12 @@ Runtime Environment: Implemented in Go 1.19 and use the BLS12-381 asymmetric pai
 
 The source code is located in the src directory with the following structure:
 
-  pdc.go: Core implementation of the TA-PDC scheme.
+    pdc.go: Core implementation of the TA-PDC scheme.
 
-  pdc_test.go: Correctness verification and performance benchmarking using Go’s built-in testing and benchmarking framework.
+    pdc_test.go: Correctness verification and performance benchmarking using Go’s built-in testing and benchmarking framework.
 
-  oruta.go: Core implementation of the Oruta: Privacy-Preserving Public Auditing for Shared Data in the Cloud scheme.
+    oruta.go: Core implementation of the Oruta: Privacy-Preserving Public Auditing for Shared Data in the Cloud scheme.
 
-  oruta_test.go: Correctness verification and performance benchmarking for the Oruta scheme.
+    oruta_test.go: Correctness verification and performance benchmarking for the Oruta scheme.
 
-  utils.go & utils_test.go: Utility functions and their corresponding tests, providing auxiliary support for the above schemes.
+    utils.go & utils_test.go: Utility functions and their corresponding tests, providing auxiliary support for the above schemes.
